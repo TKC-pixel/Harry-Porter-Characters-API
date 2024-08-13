@@ -1,0 +1,79 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for Cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual Card */
+.card {
+  width: 200px; /* Fixed width */
+  height: 300px; /* Fixed height */
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff; /* White background */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+/* Card Image */
+.card-image {
+  width: 100%; /* Image takes full width of card */
+  height: 150px; /* Fixed height for image */
+  object-fit: cover; /* Ensure image covers the area */
+  border-radius: 5px; /* Rounded corners for image */
+}
+
+/* Character Name */
+.char-name {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Load More Button */
+.load-more-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  cursor: pointer;
+}
+
+.load-more-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.ini{
+  margin-bottom: 60px;
+}
+
+
+.input-box{
+  height: 37px;
+  width: 300px;
+}
